@@ -1,0 +1,8 @@
+PassengerEnabled On
+PassengerAppRoot /home/pilurjuj/domains/sxxx.eu.cc/public_html
+PassengerStartupFile app.js
+PassengerAppType node
+PassengerNodejs /opt/alt/alt-nodejs20/root/usr/bin/node
+PassengerAppEnv production
+
+SetEnv NODE_ENV production
