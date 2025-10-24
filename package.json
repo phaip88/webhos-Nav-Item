@@ -8,7 +8,9 @@
   "main": "app.js",
   "scripts": {
     "dev": "node app.js",
-    "start": "node app.js"
+    "start": "node app.js",
+    "build": "cd web && npm install && npm run build",
+    "postinstall": "cd web && npm install"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
